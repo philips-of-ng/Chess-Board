@@ -1,0 +1,48 @@
+* {
+  border: white solid 2px;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container, table {
+  margin: 0 auto;
+  border: 3px solid black;
+  width: fit-content;
+  height: fit-content;
+  border-collapse: collapse;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tr, td {
+  border-collapse: collapse;
+  border: none;
+}
+
+.white {
+  background-color: rgb(255,206,158);
+  margin: 0;
+  border: none;
+  padding: 0;
+  border-collapse: collapse;
+}
+
+.black {
+  background-color: rgb(209,139,71);
+  margin: 0;
+  border: none;
+  padding: 0;
+  border-collapse: collapse;
+}
+
+td {
+  height: 60px;
+  width: 60px;
+  border-collapse: collapse;
+  background-color: rgb(255,206,158);
+}
